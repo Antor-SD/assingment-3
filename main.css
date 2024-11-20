@@ -4,6 +4,15 @@
 
 @layer utilities{
     .gain{
-        @apply border rounded-full py-0.5 px-1.5 border-[#F44335] gap-4 text-xs md:text-sm hover:bg-black hover:text-white hover:scale-105 transition-all cursor-pointer;
+        @apply border rounded-full py-0.5 px-1.5 border-[#F44335] text-xs md:text-sm hover:bg-black hover:text-white hover:scale-105 transition-all cursor-pointer;
+    }
+    .video{
+        @apply font-bold text-[#00FF84] text-xl md:text-3xl;
+    }
+    .video1{
+        @apply text-[#2D3142] text-xs md:text-sm;
+    }
+    .course{
+        @apply border border-[#232323] rounded-full py-0.5 md:py-1 px-0.5 md:px-1.5 text-xs md:text-sm;
     }
 }
